@@ -1,0 +1,576 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "có ai ở đây không",
+                "Hello",
+                "alo",
+                "Chào",
+                "chào bạn",
+                "Xin chào",
+                "Tôi muốn hỏi"
+            ],
+            "responses": [
+                "Xin chào, bạn cần gì?",
+                "Xin chào, tôi có thể giúp gì cho bạn?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "Thanks",
+                "Goodbye",
+                "Cảm ơn",
+                "tạm biệt",
+                "ok"
+            ],
+            "responses": [
+                "Chúc một ngày tốt lành!",
+                "Rất vui vì đã giúp được bạn. Mong bạn hài lòng với dịch vụ của chúng tôi!"
+            ]
+        },
+        {
+            "tag": "pricing",
+            "patterns": [
+                "Giá thuê xe bao nhiêu?",
+                "Chi phí thuê xe là bao nhiêu?",
+                "Giá thuê xe theo ngày là bao nhiêu?",
+                "Có bảng giá không?",
+                "Giá thuê xe như thế nào?",
+                "Bao nhiêu tiền để thuê một chiếc xe?",
+                "Bạn có thể cho tôi biết giá thuê xe không?",
+                "Giá thuê xe theo giờ là bao nhiêu?",
+                "Giá thuê xe nhỏ là bao nhiêu?",
+                "Giá thuê xe 5 chỗ là bao nhiêu?",
+                "Giá thuê xe 7 chỗ là bao nhiêu?",
+                "Giá thuê xe 12 chỗ là bao nhiêu?",
+                "Chi phí thuê xe cho một chuyến đi dài là bao nhiêu?"
+            ],
+            "responses": [
+                "Giá thuê xe tùy thuộc vào loại xe và thời gian thuê. Bạn có thể xem chi tiết tại giá thuê của từng loại xe ở trang chủ hoặc mục tìm kiếm xe."
+            ]
+        },
+        {
+            "tag": "locations",
+            "patterns": [
+                "Bạn có chi nhánh ở đâu?",
+                "Địa điểm của bạn là gì?",
+                "Bạn có cửa hàng ở đâu?",
+                "Bạn có chi nhánh ở Đà Nẵng không?",
+                "Tôi có thể đến địa chỉ nào để thuê xe?",
+                "Tôi cần địa chỉ cụ thể để đến thuê xe",
+                "Chi nhánh gần nhất của bạn ở đâu?",
+                "Bạn có chi nhánh ở các tỉnh thành khác không?",
+                "Bạn có văn phòng ở Đà Nẵng không?",
+                "Có thể thuê xe ở đâu?",
+                "Địa chỉ của bạn là gì?"
+            ],
+            "responses": [
+                "Chúng tôi có chi nhánh ở Thành Phố Đà Nẵng. Bạn có thể ghé thăm bất kỳ chi nhánh nào gần nhất để được hỗ trợ.",
+                "Địa chỉ của chúng tôi Đà Nẵng là: K7/7, đường Ngô Sỹ Liên, phường Hòa Minh, quận Liên Chiểu, thành phố Đà Nẵng"
+            ]
+        },
+        {
+            "tag": "contact_information",
+            "patterns": [
+                "Làm sao để liên hệ với bạn?",
+                "Thông tin liên hệ của bạn là gì?",
+                "Tôi cần số điện thoại liên hệ",
+                "Email liên hệ của bạn là gì?",
+                "Bạn có thể cho tôi biết thông tin liên hệ không?",
+                "Tôi muốn biết cách liên hệ với bạn",
+                "Làm thế nào để liên lạc với bạn?",
+                "Số điện thoại hỗ trợ của bạn là gì?",
+                "Có thể liên hệ qua email không?",
+                "Bạn có số điện thoại không?",
+                "Cách nhanh nhất để liên hệ với bạn là gì?",
+                "Tôi cần số điện thoại của bạn",
+                "Bạn có thể cho tôi email để liên hệ không?",
+                "Liên hệ với bạn qua email nào?",
+                "Tôi cần liên hệ với bộ phận hỗ trợ",
+                "Bạn có hỗ trợ qua điện thoại không?",
+                "Làm sao để gọi cho bạn?",
+                "Thông tin liên hệ của công ty bạn?",
+                "Bạn có thể cung cấp thông tin liên hệ chi tiết không?",
+                "Tôi muốn biết số điện thoại hỗ trợ khách hàng"
+            ],
+            "responses": [
+                "Bạn có thể liên hệ với chúng tôi qua số điện thoại 0382412729 hoặc email congphamit2002@gmail.com. Chúng tôi luôn sẵn sàng hỗ trợ bạn.",
+                "Để liên hệ với chúng tôi, bạn có thể gọi đến hotline 0382412729 hoặc gửi email đến congphamit2002@gmail.com.",
+                "Thông tin liên hệ của chúng tôi: Số điện thoại: 0382412729, Email: congphamit2002@gmail.com. Chúng tôi sẵn sàng giải đáp mọi thắc mắc của bạn.",
+                "Bạn có thể liên hệ với chúng tôi qua số điện thoại 0382412729 hoặc email congphamit2002@gmail.com. Đội ngũ hỗ trợ của chúng tôi luôn sẵn sàng giúp đỡ bạn."
+            ]
+        },
+        {
+            "tag": "booking",
+            "patterns": [
+                "Tôi muốn đặt xe",
+                "Làm sao để đặt xe?",
+                "Tôi muốn thuê xe",
+                "Làm thế nào để tôi đặt xe?",
+                "Có thể đặt xe ở đây không?",
+                "Quy trình đặt xe như thế nào?",
+                "Tôi có thể đặt xe trực tuyến không?",
+                "Đặt xe như thế nào?",
+                "Làm thế nào để tôi thuê xe?",
+                "Tôi cần đặt một chiếc xe",
+                "Tôi muốn đặt xe cho ngày mai",
+                "Bạn có thể giúp tôi đặt xe không?",
+                "Làm sao để tôi thuê xe cho chuyến đi của mình?",
+                "Cách đặt xe của bạn như thế nào?",
+                "Tôi muốn biết cách đặt xe",
+                "Có cần đặt cọc khi đặt xe không?",
+                "Tôi có thể đặt xe qua điện thoại không?",
+                "Tôi cần xe từ ngày X đến ngày Y, làm sao để đặt?",
+                "Có thể đặt xe trước không?",
+                "Tôi muốn đặt xe cho cuối tuần này"
+            ],
+            "responses": [
+                "Bạn có thể đặt xe trực tiếp trên website của chúng tôi bằng cách tìm kiếm thông tin và ngày thuê xe. Hoặc bạn có thể gọi đến số hotline 0382412729 của chúng tôi để được hỗ trợ.",
+                "Để đặt xe, bạn chỉ cần truy cập vào trang đặt xe của chúng tôi và làm theo hướng dẫn. Nếu cần hỗ trợ thêm, hãy gọi cho chúng tôi qua hotline 0382412729.",
+                "Quy trình đặt xe của chúng tôi rất đơn giản. Bạn có thể đặt xe trực tuyến trên trang web của chúng tôi hoặc gọi điện thoại đến số hotline 0382412729."
+            ]
+        },
+        {
+            "tag": "cancellation",
+            "patterns": [
+                "Tôi muốn hủy đặt xe",
+                "Làm sao để hủy đặt xe?",
+                "Hủy đặt xe như thế nào?",
+                "Có thể hủy đặt xe không?",
+                "Tôi cần hủy đặt xe",
+                "Làm thế nào để tôi hủy đặt xe?",
+                "Hủy đặt xe qua điện thoại như thế nào?",
+                "Tôi muốn biết cách hủy đặt xe",
+                "Hủy đặt xe có phí không?",
+                "Tôi cần hủy xe đã đặt",
+                "Làm sao để hủy đơn đặt xe của tôi?",
+                "Tôi muốn hủy đơn đặt xe của mình",
+                "Có thể hủy xe đã đặt trước không?",
+                "Quy trình hủy đặt xe như thế nào?",
+                "Hủy đặt xe có mất phí không?",
+                "Tôi có thể hủy xe đã đặt không?",
+                "Làm sao để tôi hủy xe đã thuê?",
+                "Tôi cần hủy đặt xe vào ngày X",
+                "Có cách nào để hủy đặt xe không?",
+                "Tôi cần biết cách hủy đặt xe của mình"
+            ],
+            "responses": [
+                "Để hủy đặt xe, bạn có thể truy cập vào trang quản lý đặt xe trên website của chúng tôi hoặc liên hệ với chúng tôi qua hotline 0382412729. Xin vui lòng cung cấp thông tin chi tiết về đặt xe của bạn để chúng tôi hỗ trợ hủy.",
+                "Bạn có thể hủy đặt xe bằng cách gọi đến số hotline 0382412729 hoặc gửi email đến congphamit2002@gmail.com với thông tin chi tiết về đặt xe của bạn.",
+                "Hãy cung cấp thông tin chi tiết về đơn đặt xe của bạn qua hotline 0382412729 hoặc email congphamit2002@gmail.com để chúng tôi có thể hỗ trợ bạn hủy đặt xe một cách nhanh chóng."
+            ]
+        },
+        {
+            "tag": "car_types",
+            "patterns": [
+                "Bạn có những loại xe nào?",
+                "Có những loại xe nào cho thuê?",
+                "Tôi muốn biết các loại xe hiện có",
+                "Bạn có xe Toyota không?",
+                "Bạn có xe sedan không?",
+                "Có xe 7 chỗ không?",
+                "Xe nhỏ gọn có không?",
+                "Có xe nào tiết kiệm xăng không?",
+                "Bạn có xe hạng sang không?",
+                "Bạn có xe thể thao không?",
+                "Loại xe nào phù hợp cho gia đình?",
+                "Bạn có xe tải nhỏ không?",
+                "Có xe nào phù hợp cho du lịch dài ngày không?",
+                "Có xe nào mới nhất không?",
+                "Bạn có xe nào có GPS không?",
+                "Xe nào có không gian rộng?",
+                "Có xe nào có ghế trẻ em không?",
+                "Bạn có xe điện không?"
+            ],
+            "responses": [
+                "Chúng tôi có nhiều loại xe khác nhau như Toyota, Ford, Kia, Huyndai, . . .?",
+                "Hiện tại chúng tôi có các loại xe như sToyota, Ford, Kia, Huyndai. Bạn có thể chọn loại xe phù hợp với nhu cầu của mình."
+            ]
+        },
+        {
+            "tag": "car_seating_capacity",
+            "patterns": [
+                "Xe có mấy chỗ?",
+                "Bạn có xe 4 chỗ không?",
+                "Tôi cần thuê xe 5 chỗ",
+                "Bạn có xe 7 chỗ không?",
+                "Xe lớn nhất của bạn có bao nhiêu chỗ?",
+                "Bạn có xe 16 chỗ không?",
+                "Có xe nào 2 chỗ không?",
+                "Xe của bạn có bao nhiêu chỗ?",
+                "Bạn có xe cho 6 người không?",
+                "Bạn có xe 8 chỗ không?",
+                "Tôi cần thuê xe 9 chỗ",
+                "Xe nhỏ nhất của bạn có bao nhiêu chỗ?",
+                "Bạn có xe 12 chỗ không?",
+                "Có xe nào 15 chỗ không?"
+            ],
+            "responses": [
+                "Chúng tôi có nhiều loại xe với số chỗ khác nhau, bao gồm xe 4 chỗ, 5 chỗ, 7 chỗ, 8 chỗ. Bạn có thể chọn loại xe phù hợp với nhu cầu của mình để thuê.",
+                "Chúng tôi cung cấp các loại xe với số chỗ khác nhau từ 4 chỗ đến 8 chỗ. Bạn có thể chọn loại xe phù hợp với nhu cầu của mình để thuê.",
+                "Bạn có thể chọn từ các loại xe 2 chỗ, 4 chỗ, 5 chỗ, 7 chỗ tùy theo nhu cầu của mình."
+            ]
+        },
+        {
+            "tag": "transmission",
+            "patterns": [
+                "Bạn có xe số sàn không?",
+                "Tôi muốn thuê xe số sàn",
+                "Có xe số tự động không?",
+                "Tôi cần thuê xe số tự động",
+                "Loại truyền động của các xe bạn là gì?",
+                "Có xe số sàn và số tự động không?",
+                "Tôi muốn biết về loại truyền động của các loại xe bạn có",
+                "Có thể tìm được xe số sàn ở đâu?",
+                "Tôi muốn thuê xe số tự động tại đâu?",
+                "Bạn có thể cho tôi biết về sự khác biệt giữa xe số sàn và số tự động không?",
+                "Loại truyền động nào là phù hợp với nhu cầu của tôi?",
+                "Tôi cần tư vấn về việc chọn loại truyền động cho xe",
+                "Tôi muốn biết xe số sàn có sẵn ở đâu?",
+                "Có những loại xe nào có truyền động số tự động?",
+                "Tôi cần tìm loại xe có truyền động số tự động"
+            ],
+            "responses": [
+                "Chúng tôi cung cấp cả xe số sàn và xe số tự động để thuê. Bạn có thể lựa chọn loại truyền động phù hợp với nhu cầu của mình khi đặt xe.",
+                "Tất cả các loại xe của chúng tôi đều có sẵn cả truyền động số sàn và số tự động. Bạn có thể chọn loại xe mà bạn muốn khi đặt xe trực tuyến.",
+                "Xe số sàn và số tự động đều có sẵn trong garage của chúng tôi. Hãy cho chúng tôi biết loại truyền động bạn mong muốn và chúng tôi sẽ đáp ứng nhu cầu của bạn.",
+                "Với chúng tôi, bạn có thể lựa chọn giữa xe số sàn và xe số tự động tùy theo sở thích và nhu cầu sử dụng của bạn. Bạn có thể xem trực tiếp trên website của chúng tôi"
+            ]
+        },
+        {
+            "tag": "payment_method",
+            "patterns": [
+                "Tôi có thể thanh toán bằng cách nào?",
+                "Bạn chấp nhận phương thức thanh toán nào?",
+                "Thanh toán có thể thực hiện như thế nào?",
+                "Có thể thanh toán trực tiếp không?",
+                "Phương thức thanh toán của bạn là gì?",
+                "Tôi muốn trả tiền mặt khi nhận xe",
+                "Bạn có chấp nhận thanh toán bằng thẻ không?",
+                "Thanh toán khi nhận xe có được không?",
+                "Có thể thanh toán bằng chuyển khoản ngân hàng không?",
+                "Tôi muốn thanh toán trực tiếp tại cửa hàng",
+                "Tôi có thể trả tiền bằng thẻ tín dụng không?",
+                "Phương thức thanh toán nào là phổ biến nhất?",
+                "Tôi có thể thanh toán qua ứng dụng di động không?",
+                "Bạn có chấp nhận thanh toán bằng tiền mặt không?",
+                "Tôi có thể thanh toán bằng cách nào khi nhận xe?",
+                "Làm thế nào để thanh toán trực tuyến?",
+                "Tôi có thể thanh toán qua trang web của bạn không?",
+                "Phương thức thanh toán trực tuyến của bạn là gì?",
+                "Tôi muốn thanh toán qua internet banking",
+                "Có thể thanh toán bằng thẻ tín dụng trực tuyến không?",
+                "Tôi muốn sử dụng thanh toán online",
+                "Bạn chấp nhận thanh toán qua cổng thanh toán nào?",
+                "Làm thế nào để tôi thanh toán online cho việc thuê xe?",
+                "Có phí nào cho việc thanh toán trực tuyến không?",
+                "Bạn có chấp nhận thanh toán qua ví điện tử không?",
+                "Tôi muốn thanh toán bằng thẻ tín dụng trên trang web của bạn"
+            ],
+            "responses": [
+                "Chúng tôi chỉ chấp nhận thanh toán trực tuyến thông qua trang web của chúng tôi. Bạn có thể sử dụng Cổng thanh toán VNPAYQR, Thanh toán qua ATM-Tài khoản ngân hàng nội địa, ... để thanh toán.",
+                "Phương thức thanh toán trực tuyến của chúng tôi bao gồm thanh toán qua Cổng thanh toán VNPAYQR,  Thanh toán qua ATM-Tài khoản ngân hàng nội địa, .... Bạn có thể thực hiện thanh toán một cách thuận tiện trên trang web của chúng tôi.",
+                "Chúng tôi chỉ chấp nhận thanh toán trực tuyến thông qua trang web của chúng tôi. Bạn có thể sử dụng các phương thức thanh toán như Cổng thanh toán VNPAYQR, Thanh toán qua ATM-Tài khoản ngân hàng nội địa, ... để thanh toán một cách dễ dàng và an toàn."
+            ]
+        },
+        {
+            "tag": "pickup_location",
+            "patterns": [
+                "Tôi muốn biết địa chỉ nhận xe",
+                "Nơi nào tôi có thể nhận xe?",
+                "Làm sao để biết địa chỉ nhận xe?",
+                "Tôi cần biết vị trí nhận xe",
+                "Bạn có thể cho tôi biết địa chỉ lấy xe không?",
+                "Tôi muốn đến đâu để lấy xe?",
+                "Có thể cho tôi biết địa chỉ nhận xe gần nhất không?",
+                "Tôi cần biết địa chỉ lấy xe ở đâu",
+                "Lấy xe ở đâu?",
+                "Bạn có thể cung cấp địa chỉ nhận xe được không?",
+                "Địa chỉ nhận xe của bạn là gì?",
+                "Tôi muốn biết địa chỉ nhận xe gần sân bay",
+                "Có trạm nhận xe nào gần đây không?",
+                "Tôi cần biết địa chỉ nhận xe ở khu vực trung tâm thành phố",
+                "Lấy xe tại văn phòng của bạn có phù hợp không?",
+                "Có trạm nhận xe nào ở khu vực quận 1 không?",
+                "Tôi muốn biết địa chỉ nhận xe ở khu vực ngoại ô",
+                "Lấy xe ở đâu là thuận tiện nhất?"
+            ],
+            "responses": [
+                "Bạn có thể nhận xe tại công ty chúng tôi ở K7/7, đường Ngô Sỹ Liên, phường Hòa Minh, quận Liên Chiểu, thành phố Đà Nẵng hoặc điền địa chỉ giao xe trong thành phố Đà Nẵng, nhưng nó sẽ mất thêm 150 ngàn tiền phí.",
+                "Chúng tôi có thể đưa xe đến địa chỉ giao xe của bạn trong thành phố Đà Nẵng, tuy nhiên, có phí thêm 150 ngàn đồng.",
+                "Bạn có thể chọn nhận xe tại văn phòng công ty chúng tôi ở K7/7, đường Ngô Sỹ Liên, phường Hòa Minh, quận Liên Chiểu, thành phố Đà Nẵng hoặc chúng tôi có thể giao xe đến địa chỉ của bạn trong thành phố Đà Nẵng với một khoản phí phụ thu.",
+                "Chúng tôi cung cấp dịch vụ nhận và giao xe tại nhiều địa điểm trong thành phố Đà Nẵng. Hãy lựa chọn điểm thuận tiện nhất cho bạn và chúng tôi sẽ hỗ trợ bạn với một khoản phí nhỏ."
+            ]
+        },
+        {
+            "tag": "driver_license_confirmation",
+            "patterns": [
+                "Tôi cần xác nhận về việc giấy phép lái xe",
+                "Trước khi thuê xe, tôi cần biết về quy định về giấy phép lái xe",
+                "Làm sao để xác nhận giấy phép lái xe trước khi thuê xe?",
+                "Tôi muốn biết về yêu cầu về giấy phép lái xe khi thuê xe",
+                "Có cần xác nhận giấy phép lái xe trước khi thuê xe không?",
+                "Quy định về giấy phép lái xe khi thuê xe là gì?",
+                "Tôi muốn biết về quy tắc về giấy phép lái xe khi thuê xe",
+                "Có điều kiện nào về giấy phép lái xe không?",
+                "Trước khi thuê xe, tôi cần hiểu về quy định về giấy phép lái xe",
+                "Giấy phép lái xe có quan trọng không khi thuê xe?",
+                "Tôi muốn biết liệu giấy phép lái xe có cần thiết khi thuê xe không?",
+                "Trước khi thuê xe, tôi cần thực hiện những thủ tục gì?",
+                "Cần phải làm gì trước khi thuê xe?",
+                "Tôi muốn biết về các bước cần thiết khi thuê xe",
+                "Quy trình thuê xe là gì?",
+                "Tôi cần biết về thủ tục cần thiết trước khi thuê xe",
+                "Các bước cần thiết khi thuê xe là gì?",
+                "Trước khi thuê xe, tôi cần làm gì?",
+                "Cần phải chuẩn bị những gì trước khi thuê xe?",
+                "Tôi muốn biết về quy trình thuê xe",
+                "Quy trình thuê xe bao gồm những bước nào?",
+                "Trước khi đặt xe, tôi cần chuẩn bị điều gì?",
+                "Có cần phải thực hiện thủ tục gì trước khi thuê xe không?"
+            ],
+            "responses": [
+                "Trước khi thuê xe, bạn cần phải xác nhận và cung cấp thông tin về giấy phép lái xe hợp lệ của mình. Điều này là bắt buộc để đảm bảo an toàn khi lái xe.",
+                "Chúng tôi yêu cầu khách hàng cung cấp giấy phép lái xe hợp lệ trước khi thuê xe để đảm bảo tuân thủ các quy định và đảm bảo an toàn khi lái xe.",
+                "Giấy phép lái xe là một yếu tố quan trọng khi thuê xe. Trước khi thuê, bạn cần phải xác nhận rằng giấy phép lái xe của bạn đang còn hiệu lực và hợp lệ.",
+                "Giấy phép lái xe là điều kiện tiên quyết khi thuê xe. Bạn cần phải cung cấp thông tin về giấy phép lái xe của mình trước khi thuê để chúng tôi có thể xác nhận và tiến hành thuê xe cho bạn.",
+                "Trước khi thuê xe, bạn cần phải xác nhận và cung cấp thông tin về giấy phép lái xe hợp lệ của mình. Điều này giúp đảm bảo an toàn cho bạn và những người tham gia giao thông.",
+                "Cung cấp giấy phép lái xe hợp lệ là một yêu cầu cần thiết khi thuê xe. Điều này giúp đảm bảo rằng bạn đủ điều kiện lái xe và đảm bảo an toàn cho mọi người trên đường."
+            ]
+        },
+        {
+            "tag": "license_verification",
+            "patterns": [
+                "Làm thế nào để xác thực giấy phép lái xe?",
+                "Cách thức xác thực giấy phép lái xe là gì?",
+                "Tôi cần làm gì để xác thực giấy phép lái xe?",
+                "Xác thực giấy phép lái xe như thế nào?",
+                "Tôi muốn biết về quy trình xác thực giấy phép lái xe",
+                "Cần phải làm gì để xác thực giấy phép lái xe?",
+                "Làm sao để xác thực giấy phép lái xe trước khi thuê xe?",
+                "Tôi muốn biết cách xác thực giấy phép lái xe",
+                "Có cần phải xác thực giấy phép lái xe không?",
+                "Tôi muốn biết về quy trình xác thực giấy phép lái xe trước khi thuê xe"
+            ],
+            "responses": [
+                "Để xác thực giấy phép lái xe, bạn cần cung cấp hình ảnh của giấy phép lái xe và điền thông tin số giấy phép lái xe cũng như hạng của bằng cấp tương ứng. Sau khi bạn đã cung cấp thông tin này, chờ admin duyệt và sau đó bạn sẽ được thông báo có thể thuê xe.",
+                "Quy trình xác thực giấy phép lái xe đòi hỏi bạn cung cấp hình ảnh giấy phép lái xe và điền thông tin chi tiết như số giấy phép lái xe và hạng của bằng cấp. Thông tin này sẽ được admin kiểm tra và xác nhận trước khi bạn có thể thuê xe.",
+                "Khi bạn muốn thuê xe, quy trình đầu tiên là xác thực giấy phép lái xe. Bạn cần cung cấp hình ảnh của giấy phép lái xe và điền thông tin số giấy phép lái xe cùng với hạng của bằng cấp tương ứng. Admin sẽ duyệt thông tin của bạn trước khi bạn có thể thuê xe.",
+                "Trước khi thuê xe, bạn cần xác thực giấy phép lái xe bằng cách cung cấp hình ảnh giấy phép và điền thông tin chi tiết. Admin sẽ kiểm tra thông tin của bạn và sau đó xác nhận bạn có thể thuê xe.",
+                "Để xác thực giấy phép lái xe, bạn cần cung cấp hình ảnh giấy phép lái xe và điền thông tin số giấy phép lái xe cũng như hạng của bằng cấp tương ứng. Sau khi thông tin được xác nhận, bạn sẽ được cho phép thuê xe."
+            ]
+        },
+        {
+            "tag": "rental_history",
+            "patterns": [
+                "Làm thế nào để xem lịch sử thuê xe của tôi?",
+                "Tôi muốn biết về lịch sử thuê xe của mình",
+                "Cách xem thông tin về lịch sử thuê xe là gì?",
+                "Làm sao để xem lịch sử thuê xe?",
+                "Tôi cần xem thông tin về các lần thuê xe trước đây",
+                "Xem lịch sử thuê xe của tôi như thế nào?",
+                "Có cách nào để xem lịch sử thuê xe không?",
+                "Tôi muốn biết về lịch sử thuê xe của tôi trong thời gian qua",
+                "Có thể kiểm tra lịch sử thuê xe như thế nào?",
+                "Làm thế nào để xem thông tin về các đơn thuê xe trước đây?"
+            ],
+            "responses": [
+                "Để xem lịch sử thuê xe của bạn, hãy đăng nhập vào tài khoản của mình trên trang web. Tại đó, bạn sẽ tìm thấy một mục hoặc tab cho 'Lịch sử thuê xe' để xem và quản lý thông tin về các lần thuê xe trước đó của bạn.",
+                "Bạn có thể xem lịch sử thuê xe của mình bằng cách đăng nhập vào tài khoản của bạn trên trang web của chúng tôi. Tại đó, bạn sẽ có thể truy cập vào mục 'Lịch sử thuê xe' để xem thông tin chi tiết về các lần thuê xe trước đây của bạn.",
+                "Để xem lịch sử thuê xe của bạn, hãy truy cập vào tài khoản của mình trên trang web và tìm kiếm mục 'Lịch sử thuê xe'. Tại đây, bạn có thể xem thông tin chi tiết về các đơn thuê xe trước đó của bạn và thực hiện các thao tác quản lý cần thiết.",
+                "Lịch sử thuê xe của bạn có thể được xem qua tài khoản trực tuyến của bạn trên trang web. Hãy đăng nhập và tìm kiếm mục 'Lịch sử thuê xe' để xem thông tin chi tiết về các lần thuê xe trước đó của bạn.",
+                "Để xem lịch sử thuê xe của bạn, vui lòng truy cập vào tài khoản của bạn trên trang web và chọn mục 'Lịch sử thuê xe'. Tại đây, bạn sẽ tìm thấy thông tin về các lần thuê xe trước đây của bạn cùng với các chi tiết liên quan."
+            ]
+        },
+        {
+            "tag": "admin_create_contract",
+            "patterns": [
+                "Hợp đồng thuê xe được tạo ra như thế nào?",
+                "Làm thế nào để admin tạo hợp đồng thuê xe?",
+                "Quy trình tạo hợp đồng thuê xe là gì?",
+                "Cách thức tạo hợp đồng thuê xe là gì?",
+                "Admin tạo hợp đồng thuê xe như thế nào?",
+                "Hợp đồng thuê xe được tạo ra như thế nào từ phía admin?",
+                "Có phải admin tạo hợp đồng thuê xe không?",
+                "Tôi muốn biết về quy trình tạo hợp đồng thuê xe từ phía admin"
+            ],
+            "responses": [
+                "Hợp đồng thuê xe được tạo ra bởi admin khi bạn đến nhận xe hoặc trả xe. Admin sẽ kiểm tra thông tin và điều kiện thuê xe, sau đó tạo ra hợp đồng cho bạn ký nhận hoặc trả xe.",
+                "Admin sẽ tạo hợp đồng thuê xe khi bạn đến nhận xe hoặc trả xe. Quy trình này bao gồm việc kiểm tra thông tin của bạn và các điều khoản thuê xe, sau đó tạo ra hợp đồng để bạn ký nhận hoặc trả xe.",
+                "Khi bạn đến nhận xe hoặc trả xe, admin sẽ tạo hợp đồng thuê xe dựa trên thông tin và điều kiện thuê xe của bạn. Hợp đồng này sẽ chứa các thông tin chi tiết và điều khoản cần thiết cho quá trình thuê xe.",
+                "Admin sẽ tạo hợp đồng thuê xe khi bạn đến nhận hoặc trả xe. Quy trình này bao gồm việc kiểm tra thông tin của bạn và điều kiện thuê xe, sau đó tạo ra hợp đồng để bạn ký nhận hoặc trả xe.",
+                "Hợp đồng thuê xe sẽ được admin tạo ra khi bạn đến nhận xe hoặc trả xe. Admin sẽ kiểm tra thông tin của bạn và điều kiện thuê xe trước khi tạo ra hợp đồng cho bạn ký nhận hoặc trả xe."
+            ]
+        },
+        {
+            "tag": "admin_sign_contract",
+            "patterns": [
+                "Làm thế nào để ký hợp đồng thuê xe từ phía admin?",
+                "Quy trình ký hợp đồng thuê xe từ phía admin là gì?",
+                "Cách thức ký hợp đồng thuê xe từ phía admin là gì?",
+                "Admin ký hợp đồng thuê xe như thế nào?",
+                "Tôi muốn biết về quy trình ký hợp đồng thuê xe từ phía admin",
+                "Có phải admin ký hợp đồng thuê xe không?"
+            ],
+            "responses": [
+                "Khi hợp đồng thuê xe được tạo ra bởi admin, bạn sẽ được yêu cầu ký nhận hoặc trả xe. Admin sẽ hướng dẫn bạn qua quy trình ký hợp đồng và cung cấp bản sao cho bạn để lưu giữ.",
+                "Admin sẽ hướng dẫn bạn qua quy trình ký hợp đồng thuê xe khi bạn đến nhận hoặc trả xe. Sau khi bạn ký, admin sẽ cung cấp bản sao hợp đồng cho bạn.",
+                "Khi bạn đến nhận hoặc trả xe, admin sẽ hướng dẫn bạn qua quy trình ký hợp đồng thuê xe. Bạn sẽ ký trên hợp đồng và admin sẽ cung cấp bản sao cho bạn để lưu giữ.",
+                "Admin sẽ hướng dẫn bạn qua quy trình ký hợp đồng thuê xe khi bạn đến nhận hoặc trả xe. Sau khi bạn ký, admin sẽ cung cấp bản sao hợp đồng cho bạn.",
+                "Sau khi hợp đồng thuê xe được tạo ra bởi admin, bạn sẽ được yêu cầu ký trên hợp đồng khi đến nhận hoặc trả xe. Admin sẽ cung cấp bản sao hợp đồng cho bạn sau khi ký."
+            ]
+        },
+        {
+            "tag": "settlement_contract_admin",
+            "patterns": [
+                "Hợp đồng tất toán sau khi thuê xe đã kết thúc được tạo ra như thế nào?",
+                "Admin tạo hợp đồng tất toán như thế nào?",
+                "Quy trình tạo hợp đồng tất toán là gì?",
+                "Cách thức tạo hợp đồng tất toán là gì?",
+                "Tôi muốn biết về quy trình tạo hợp đồng tất toán từ phía admin",
+                "Có phải admin tạo hợp đồng tất toán không?"
+            ],
+            "responses": [
+                "Hợp đồng tất toán sau khi thuê xe đã kết thúc được admin tạo ra để phục vụ cho các hành vi pháp lý sau này. Admin sẽ kiểm tra thông tin và điều kiện thuê xe, tính toán các khoản phí cần thanh toán (nếu có), sau đó tạo ra hợp đồng tất toán.",
+                "Admin tạo hợp đồng tất toán sau khi thuê xe đã kết thúc để đảm bảo các thông tin và điều kiện thuê xe được ghi lại một cách rõ ràng và đáng tin cậy. Quy trình này bao gồm việc tính toán và kiểm tra các khoản phí cần thanh toán, sau đó tạo ra hợp đồng cho các bên kí.",
+                "Quy trình tạo hợp đồng tất toán sau khi thuê xe đã kết thúc bao gồm kiểm tra và xác nhận lại thông tin trả xe, tính toán các khoản phí cần thanh toán (nếu có), và tạo ra hợp đồng tất toán. Hợp đồng này sẽ được admin kí và lưu giữ cho các mục đích pháp lý sau này.",
+                "Admin sẽ tạo hợp đồng tất toán sau khi thuê xe đã kết thúc để đảm bảo rằng các thông tin và điều kiện thuê xe được ghi lại một cách chính xác và rõ ràng. Quy trình này bao gồm tính toán các khoản phí cần thanh toán và tạo ra hợp đồng để ký bởi các bên liên quan.",
+                "Hợp đồng tất toán sau khi thuê xe đã kết thúc được tạo ra bởi admin để đảm bảo tính minh bạch và pháp lý cho quá trình thuê xe. Admin sẽ kiểm tra và xác nhận thông tin trả xe, tính toán các khoản phí cần thanh toán và tạo ra hợp đồng tất toán."
+            ]
+        },
+        {
+            "tag": "promotion",
+            "patterns": [
+                "Có bất kỳ ưu đãi nào không?",
+                "Tôi muốn biết về các chương trình khuyến mãi",
+                "Có mã giảm giá nào không?",
+                "Có khuyến mãi nào cho việc thuê xe không?",
+                "Có các ưu đãi đặc biệt nào không?",
+                "Tôi cần thông tin về các ưu đãi hiện có",
+                "Có mã ưu đãi nào đang diễn ra không?",
+                "Có chương trình khuyến mãi nào dành cho khách hàng thường xuyên không?",
+                "Tôi quan tâm đến các ưu đãi đặc biệt"
+            ],
+            "responses": [
+                "Chúng tôi thường có các chương trình khuyến mãi và ưu đãi cho khách hàng. Để biết thông tin chi tiết về các ưu đãi hiện có, vui lòng truy cập vào trang web của chúng tôi hoặc liên hệ trực tiếp với chúng tôi qua số hotline 0382412729.",
+                "Có, chúng tôi thường xuyên có các chương trình khuyến mãi như giảm giá, mã ưu đãi hoặc các gói ưu đãi đặc biệt cho các khách hàng. Để biết thông tin chi tiết, vui lòng truy cập vào trang web của chúng tôi hoặc liên hệ trực tiếp qua số hotline 0382412729.",
+                "Bạn có thể nhận được các ưu đãi như giảm giá đặc biệt, các gói dịch vụ đi kèm khi thuê xe từ chúng tôi. Để biết thông tin chi tiết về các ưu đãi hiện có, vui lòng truy cập trang web hoặc liên hệ trực tiếp với chúng tôi.",
+                "Chúng tôi thường có các chương trình khuyến mãi như giảm giá, tặng quà hoặc ưu đãi đặc biệt cho khách hàng khi thuê xe. Để biết thông tin chi tiết về các ưu đãi hiện có, vui lòng truy cập trang web của chúng tôi hoặc liên hệ trực tiếp với chúng tôi qua số hotline 0382412729.",
+                "Có, chúng tôi có các chương trình khuyến mãi thường xuyên như giảm giá, tặng quà và ưu đãi đặc biệt cho khách hàng. Để biết thông tin chi tiết về các ưu đãi hiện có, vui lòng truy cập trang web hoặc liên hệ trực tiếp với chúng tôi."
+            ]
+        },
+        {
+            "tag": "registration",
+            "patterns": [
+                "Làm thế nào để đăng ký tài khoản?",
+                "Tôi muốn đăng ký tài khoản",
+                "Cách đăng ký thành viên là gì?",
+                "Có phải tôi cần đăng ký tài khoản không?",
+                "Tôi cần tạo một tài khoản",
+                "Làm thế nào để tạo tài khoản mới?",
+                "Tôi muốn đăng ký để thuê xe",
+                "Có cách nào để đăng ký trực tuyến không?",
+                "Tôi muốn trở thành thành viên của trang web"
+            ],
+            "responses": [
+                "Để đăng ký tài khoản, bạn có thể truy cập vào trang web của chúng tôi và chọn 'Đăng ký' trên thanh tiêu đề. Sau đó, bạn sẽ được yêu cầu điền vào một biểu mẫu đăng ký với thông tin cá nhân cần thiết.",
+                "Bạn có thể đăng ký tài khoản bằng cách truy cập vào trang web của chúng tôi và chọn 'Đăng ký'. Sau đó, bạn sẽ cần điền vào một biểu mẫu với các thông tin cá nhân cần thiết như tên, email, và mật khẩu.",
+                "Để tạo tài khoản mới, hãy truy cập vào trang web của chúng tôi và chọn 'Đăng ký'. Bạn sẽ được yêu cầu điền vào một biểu mẫu với các thông tin cá nhân cần thiết như tên, địa chỉ email, và mật khẩu.",
+                "Có, để thuê xe bạn cần phải có một tài khoản trên trang web của chúng tôi. Đăng ký tài khoản là miễn phí và nhanh chóng, chỉ cần bạn điền vào một biểu mẫu đơn giản trên trang web của chúng tôi.",
+                "Để đăng ký tài khoản, bạn có thể truy cập vào trang web của chúng tôi và chọn 'Đăng ký'. Sau đó, bạn sẽ cần điền vào một biểu mẫu với các thông tin cá nhân cần thiết như tên, địa chỉ email, và mật khẩu."
+            ]
+        },
+        {
+            "tag": "login",
+            "patterns": [
+                "Làm thế nào để đăng nhập?",
+                "Tôi muốn đăng nhập vào tài khoản của mình",
+                "Cách đăng nhập là gì?",
+                "Tôi đã có tài khoản, làm thế nào để đăng nhập?",
+                "Có cách nào để truy cập vào tài khoản của tôi không?",
+                "Tôi cần đăng nhập để thuê xe",
+                "Làm thế nào để truy cập vào tài khoản của tôi?"
+            ],
+            "responses": [
+                "Để đăng nhập, bạn có thể truy cập vào trang web của chúng tôi và chọn 'Đăng nhập'. Sau đó, bạn sẽ cần nhập địa chỉ email và mật khẩu của mình vào các trường tương ứng.",
+                "Bạn có thể đăng nhập vào tài khoản của mình bằng cách truy cập vào trang web của chúng tôi và chọn 'Đăng nhập'. Sau đó, nhập địa chỉ email và mật khẩu của bạn để tiếp tục.",
+                "Để truy cập vào tài khoản của mình, hãy truy cập vào trang web của chúng tôi và chọn 'Đăng nhập'. Sau đó, nhập địa chỉ email và mật khẩu đã đăng ký để tiếp tục.",
+                "Để đăng nhập, hãy truy cập vào trang web của chúng tôi và chọn 'Đăng nhập'. Sau đó, nhập địa chỉ email và mật khẩu của bạn vào các trường tương ứng.",
+                "Bạn có thể truy cập vào tài khoản của mình bằng cách đăng nhập vào trang web của chúng tôi và nhập địa chỉ email và mật khẩu đã đăng ký."
+            ]
+        },
+        {
+            "tag": "forgot_password",
+            "patterns": [
+                "Tôi quên mật khẩu của mình, làm thế nào để khôi phục?",
+                "Làm sao để lấy lại mật khẩu?",
+                "Tôi đã quên mật khẩu, làm thế nào để đặt lại?",
+                "Có cách nào để khôi phục mật khẩu không?",
+                "Tôi cần trợ giúp để lấy lại mật khẩu",
+                "Làm thế nào để khôi phục mật khẩu của tôi?",
+                "Tôi không nhớ mật khẩu của mình, làm sao để đặt lại?"
+            ],
+            "responses": [
+                "Nếu bạn quên mật khẩu, bạn có thể sử dụng tính năng 'Quên mật khẩu' trên trang đăng nhập để thiết lập lại mật khẩu mới. Hãy nhập địa chỉ email của bạn và hệ thống sẽ gửi cho bạn hướng dẫn chi tiết.",
+                "Để lấy lại mật khẩu, bạn chỉ cần nhấn vào liên kết 'Quên mật khẩu' trên trang đăng nhập và nhập địa chỉ email của bạn. Hệ thống sẽ gửi một email hướng dẫn đặt lại mật khẩu cho bạn.",
+                "Nếu bạn đã quên mật khẩu, đừng lo lắng! Bạn có thể sử dụng tính năng 'Quên mật khẩu' trên trang đăng nhập để đặt lại mật khẩu. Hãy nhập địa chỉ email của bạn và làm theo hướng dẫn trong email mà chúng tôi gửi cho bạn.",
+                "Khi bạn quên mật khẩu, bạn có thể sử dụng tính năng 'Quên mật khẩu' trên trang đăng nhập. Sau đó, nhập địa chỉ email đã đăng ký và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu.",
+                "Nếu bạn đã quên mật khẩu, đừng lo lắng! Bạn có thể nhấn vào liên kết 'Quên mật khẩu' trên trang đăng nhập và nhập địa chỉ email đã đăng ký. Chúng tôi sẽ gửi cho bạn hướng dẫn đặt lại mật khẩu."
+            ]
+        },
+        {
+            "tag": "change_password",
+            "patterns": [
+                "Làm thế nào để thay đổi mật khẩu?",
+                "Tôi muốn đổi mật khẩu",
+                "Cách đổi mật khẩu là gì?",
+                "Tôi cần thay đổi mật khẩu của mình",
+                "Làm sao để đặt lại mật khẩu?",
+                "Tôi muốn đổi mật khẩu của tài khoản của mình",
+                "Có cách nào để thay đổi mật khẩu không?"
+            ],
+            "responses": [
+                "Để thay đổi mật khẩu, bạn cần đăng nhập vào tài khoản của mình trên trang web. Sau đó, vào phần cài đặt tài khoản và chọn 'Đổi mật khẩu'. Nhập mật khẩu hiện tại và mật khẩu mới của bạn.",
+                "Bạn có thể đổi mật khẩu bằng cách đăng nhập vào tài khoản của mình và truy cập vào phần cài đặt tài khoản. Tại đây, bạn sẽ có mục 'Đổi mật khẩu' để thiết lập mật khẩu mới.",
+                "Để đổi mật khẩu, đăng nhập vào tài khoản của bạn trên trang web và truy cập vào phần cài đặt tài khoản. Tại đây, bạn sẽ tìm thấy tùy chọn 'Đổi mật khẩu', sau đó nhập mật khẩu hiện tại và mật khẩu mới của bạn.",
+                "Để đổi mật khẩu, hãy đăng nhập vào tài khoản của bạn trên trang web và vào phần cài đặt tài khoản. Tại đây, bạn sẽ có tùy chọn 'Đổi mật khẩu' để thiết lập mật khẩu mới cho tài khoản của mình.",
+                "Bạn có thể đổi mật khẩu bằng cách đăng nhập vào tài khoản của mình và truy cập vào phần cài đặt tài khoản. Tại đây, bạn sẽ tìm thấy tùy chọn 'Đổi mật khẩu' để thiết lập mật khẩu mới cho tài khoản của bạn."
+            ]
+        },
+        {
+            "tag": "car_other_facilities",
+            "patterns": [
+                "Xe có bản đồ tích hợp không?",
+                "Có tích hợp Bluetooth không?",
+                "Có camera lùi không?",
+                "Xe có hệ thống định vị GPS không?",
+                "Có khe cắm USB không?",
+                "Có hệ thống giữ làn đường không?",
+                "Có cốp sau rộng không?",
+                "Xe có ghế lái điều chỉnh điện không?",
+                "Có hệ thống kiểm soát hành trình không?",
+                "Có kính chống tia UV không?",
+                "Các tiện ích của xe là gì",
+                "Xe có các tiện ích gì",
+                "Có các tiện ích gì khác không"
+            ],
+            "responses": [
+                "Có, một số xe được trang bị bản đồ tích hợp trên màn hình trung tâm để hỗ trợ hành trình lái xe.",
+                "Có, xe được trang bị tích hợp Bluetooth để kết nối với điện thoại di động và nghe nhạc từ các thiết bị di động khác.",
+                "Có, một số xe được trang bị camera lùi để giúp lái xe dễ dàng khi lùi xe vào vị trí hẹp hoặc nhận biết các vật thể phía sau.",
+                "Có, một số xe được trang bị hệ thống định vị GPS để hỗ trợ lái xe và tìm đường dễ dàng hơn.",
+                "Có, một số xe được trang bị khe cắm USB để sạc điện thoại di động hoặc kết nối với các thiết bị điện tử khác.",
+                "Có, một số xe được trang bị hệ thống giữ làn đường để giúp lái xe duy trì vị trí trên đường.",
+                "Có, một số xe được thiết kế với cốp sau rộng để cung cấp không gian lưu trữ đồ đạc rộng rãi.",
+                "Có, một số xe được trang bị ghế lái điều chỉnh điện để tạo ra trải nghiệm lái xe thoải mái và thuận tiện.",
+                "Có, một số xe được trang bị hệ thống kiểm soát hành trình để cung cấp thông tin về tốc độ và hành trình của xe.",
+                "Có, một số xe được trang bị kính chống tia UV để bảo vệ lái xe và hành khách khỏi ánh nắng mặt trời độc hại."
+            ]
+        }
+    ]
+}
