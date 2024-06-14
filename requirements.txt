@@ -9,3 +9,5 @@ flask==3.0.3
 requests==2.31
 flask_cors==4.0.1
 numpy==1.26.4
+
+gunicorn==20.1.0
