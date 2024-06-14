@@ -1,16 +1,11 @@
 # Natural language processing
-nltk==3.5
+nltk==3.8.1
 
 # Deep learning frameworks
-tensorflow==2.4.1
-torch==1.7.1
+torch==2.3.0
 
 # For web interactions (if needed)
-flask==2.0.1
-requests==2.25.1
+flask==3.0.3
+requests==2.31
+flask_cors==4.0.1
 
-# For deploying the chatbot
-gunicorn==20.1.0
-
-# For environment management
-python-dotenv==0.17.1
