@@ -1,0 +1,20 @@
+# Natural language processing
+nltk==3.5
+spacy==3.0.6
+
+# Deep learning frameworks
+tensorflow==2.4.1
+torch==1.7.1
+
+# Transformer models
+transformers==4.6.1
+
+# For web interactions (if needed)
+flask==2.0.1
+requests==2.25.1
+
+# For deploying the chatbot
+gunicorn==20.1.0
+
+# For environment management
+python-dotenv==0.17.1
